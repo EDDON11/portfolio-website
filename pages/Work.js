@@ -33,7 +33,7 @@ const Work = () => {
         ))}
       </div>
 
-      <h1 className="text-secondary text-base my-10  flex items-center tabletxl:text-sm">
+      <h1 className="text-secondary text-base my-10  flex items-center tabletxl:text-sm minmobile:text-xs">
         Discover all projects on{" "}
         <a href="https://github.com/EDDON11" className="text-white font-semibold pr-2 pl-2 tabletxl:text-sm hover:text-transparent bg-clip-text bg-gradient-to-br from-cyan-500 to-teal-500">
           GutHub{" "}

@@ -17,32 +17,32 @@ const Contact = () => {
         </p>
         <div className="pt-16 pb-8">
           <div className="flex justify-between tabletxl:flex-col minmobile:flex-col tabletxxl:flex-col">
-            <a href="mailto:webdevelopered@gmail.com">
+          
               <div className="flex items-center tabletxl:pb-2 tabletxxl:pt-4 hover:animate-pulse">
-                <AiOutlineMail className="w-10 h-10  bg-gradient-to-r from-cyan-500 to-teal-500  p-1 shadow-xl rounded-md m-0 text-lg  mr-2 md:text-sm " />
-                <p className="text-secondary hover:text-teal-600 font-mono">
+                <AiOutlineMail className="w-10 h-10 minmobile:w-7 minmobile:h-7  bg-gradient-to-r from-cyan-500 to-teal-500  p-1 shadow-xl rounded-md m-0 text-lg  mr-2 md:text-sm " />
+                <p className="text-secondary minmobile:text-xs hover:text-teal-600 font-mono">
                   donkeev.ed@gmail.com
                 </p>
               </div>
-            </a>
+         
             <a href="https://t.me/eduarddonkeev">
               <div className="flex items-center tabletxl:pb-2 tabletxxl:pt-4 hover:animate-pulse">
-                <FaTelegramPlane className="w-10 h-10  bg-gradient-to-r from-cyan-500 to-teal-500  p-1 shadow-xl rounded-md m-0 text-lg   mr-2" />
-                <a href="https://t.me/eduarddonkeev">
-                  <p className="text-secondary hover:text-teal-600 font-mono">
+                <FaTelegramPlane className="w-10 h-10 minmobile:w-7 minmobile:h-7 bg-gradient-to-r from-cyan-500 to-teal-500  p-1 shadow-xl rounded-md m-0 text-lg   mr-2" />
+               
+                  <p className="text-secondary minmobile:text-xs hover:text-teal-600 font-mono">
                     t.me/eduarddonkeev
                   </p>
-                </a>
+              
               </div>
             </a>
             <a href="https://www.linkedin.com/in/eduard-donkeev-324053240">
               <div className="flex items-center tabletxl:pb-2 tabletxxl:pt-4 hover:animate-pulse">
-                <AiOutlineLinkedin className="w-10 h-10  bg-gradient-to-r from-cyan-500 to-teal-500  p-1 shadow-xl rounded-md m-0 text-lg   mr-2" />
-                <a href="https://www.linkedin.com/in/eduard-donkeev-324053240">
-                  <p className="text-secondary hover:text-teal-600 font-mono">
+                <AiOutlineLinkedin className="w-10 h-10 minmobile:w-7 minmobile:h-7 bg-gradient-to-r from-cyan-500 to-teal-500  p-1 shadow-xl rounded-md m-0 text-lg   mr-2" />
+                
+                  <p className="text-secondary minmobile:text-xs hover:text-teal-600 font-mono">
                     eduard-donkeev
                   </p>
-                </a>
+                
               </div>
             </a>
           </div>
