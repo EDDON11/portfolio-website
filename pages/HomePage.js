@@ -9,7 +9,7 @@ const HomePage = () => {
     <section className="min-h-screen">
       <nav className="pb-10 mb-12 flex justify-between dark:text-white"></nav>
       <div className="relative mx-auto bg-body from-teal-500 shadow-md rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 minmobile:h-60 minmobile:w-60">
-        <Image src={logo} layout="fill" objectFit="cover" />
+        <Image src={logo} layout="fill" objectFit="cover" alt="photo"/>
       </div>
       <div className="text-center p-10">
         <h2 className="text-5xl py-2 text-teal-600 font-extrabold  md:text-6xl mobilesm:text-4xl">

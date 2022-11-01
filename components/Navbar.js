@@ -58,14 +58,14 @@ function Navbar() {
               </div>
 
               <div className="flex justify-center items-center flex-shrink-0 ">
-                <a href="#contact">
-                  <button className="px-6 py-2 text-black font-bold bg-gradient-to-r from-cyan-500 to-teal-500 hover:bg-gradient-to-r hover:from-cyan-700 hover:to-teal-700 p-1 shadow-xl rounded-md font-mono invisible mobile:visible tablet:pr-2 mobilelm:hidden">
+                <Link to="contact"   >
+                  <button className="px-6 py-2 text-black font-bold bg-gradient-to-r from-cyan-500 to-teal-500 hover:bg-gradient-to-r hover:from-cyan-700 hover:to-teal-700 p-1 shadow-xl rounded-md font-mono invisible mobile:visible tablet:pr-2 mobilelm:hidden screenbtn:hidden">
                     Contact me
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
-            <div className="mr-14 flex md:hidden ">
+            <div className="mr-14 flex md:hidden   ">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
@@ -128,7 +128,7 @@ function Navbar() {
                 className="bg-body  rounded-md mx-4 mr-20 pt-4 pb-4 space-y-1 shadow-2xl"
               >
                 <Link
-                  href="/home"
+               
                   activeClass="Home"
                   to="home"
                   smooth={true}
@@ -139,7 +139,7 @@ function Navbar() {
                   Home
                 </Link>
                 <Link
-                  href="/skills"
+              
                   activeClass="skills"
                   to="skills"
                   smooth={true}
@@ -151,7 +151,7 @@ function Navbar() {
                 </Link>
 
                 <Link
-                  href="/work"
+              
                   activeClass="work"
                   to="work"
                   smooth={true}
@@ -163,7 +163,7 @@ function Navbar() {
                 </Link>
 
                 <Link
-                  href="/contact"
+                
                   activeClass="contact"
                   to="contact"
                   smooth={true}

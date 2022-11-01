@@ -1,13 +1,14 @@
 import React from "react";
-import works from "./data";
+import data from "./data";
 import Image from "next/image";
-import GitPhoto from "../public/images/git2.png";
+import gitImage from "../public/images/git2.png";
 import { Element } from "react-scroll";
-import images from '../public/images/colors.png'
+
 
 import WorkItem from "./WorkItem";
 
 const Work = () => {
+ 
   return (
 	<Element id='work' name='work'>
      <div className="max-w-90 m-auto mt-24">
@@ -21,7 +22,7 @@ const Work = () => {
     <div className="w-full mb-20 mt-16  h-auto flex flex-col justify-center items-center max-w-90 m-auto">
    
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5  w-full ">
-        {works.map((work) => (
+        {data.map((work) => (
           <WorkItem
             key={work.title}
             imgUrl={work.imgUrl}
@@ -37,7 +38,7 @@ const Work = () => {
         <a href="https://github.com/EDDON11" className="text-white font-semibold pr-2 pl-2 tabletxl:text-sm hover:text-transparent bg-clip-text bg-gradient-to-br from-cyan-500 to-teal-500">
           GutHub{" "}
         </a>
-        <Image  className="pl=2" src={GitPhoto} width={20} height={20} alt="Avatar" />
+        <Image  className="pl=2" src={gitImage} width={20} height={20} alt="Avatar" />
       </h1>
     </div>
 

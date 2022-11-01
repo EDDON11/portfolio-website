@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
 
 
 html{
@@ -55,15 +55,6 @@ a {
   box-sizing: border-box;
 }
 
-@font-face {
-font-family: "burtons";
-src: url("../public/Burtons.otf")
-}
-
-@font-face {
-font-family: "PlusJakartaDisplay-Regular";
-src: url("../public/PlusJakartaDisplay-Regular.otf")
-}
 
 h1 {
   font-size: 5vw;

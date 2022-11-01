@@ -1,4 +1,6 @@
-export default [
+
+
+const data = [
   {
     title: "Stellar Burgers",
     imgUrl:
@@ -28,3 +30,5 @@ export default [
     workUrl: "https://github.com/EDDON11/react-express-mesto",
   },
 ];
+
+export default data
