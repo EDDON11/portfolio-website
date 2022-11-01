@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+
+html{
+ 
+    overflow-x: hidden;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+  
+  }
+  
+  html::-webkit-scrollbar{
+    width:.5rem;
+  }
+  
+  html::-webkit-scrollbar-track{
+    background:#0a192f;
+  }
+  
+  html::-webkit-scrollbar-thumb{
+    --tw-bg-opacity: 1;
+    background-color: rgb(13 148 136 / var(--tw-bg-opacity));;
+    border-radius: 5rem;
+  }
+
+  .secondary-title {
+    @apply text-3xl font-bold;
+}
+
+.secondary-title::before {
+    content: "";
+    @apply block w-14 h-1 bg-teal-600 rounded-full mb-1;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+font-family: "burtons";
+src: url("../public/Burtons.otf")
+}
+
+@font-face {
+font-family: "PlusJakartaDisplay-Regular";
+src: url("../public/PlusJakartaDisplay-Regular.otf")
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+
+
+
+
+
+
+
+
