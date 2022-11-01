@@ -7,7 +7,7 @@ import { Element } from "react-scroll";
 const Contact = () => {
   return (
     <Element id="contact" name="contact">
-      <section className="max-w-90 m-auto pt-4 mobilelm:w-full mobilelm:m-0  minmobile:w-full minmobile:m-0">
+      <section className="max-w-90 m-auto pt-4 mobilelm:m-0 minmobile:m-0">
         <h3 className="text-4xl py-1 dark:text-white font-extrabold">
           Contact me
         </h3>

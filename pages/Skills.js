@@ -6,7 +6,7 @@ import { Element } from "react-scroll";
 const Skills = () => {
   return (
     <Element id="slills" name="skills">
-      <section className="max-w-90 m-auto mobilelm:w-full mobilelm:m-0 minmobile:w-full minmobile:m-0">
+      <section className="max-w-90 m-auto  mobilelm:m-0  minmobile:m-0">
         <div>
           <h3 className="text-4xl py-1 dark:text-white font-extrabold">
             Skills
