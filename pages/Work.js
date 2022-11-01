@@ -19,7 +19,7 @@ const Work = () => {
         </p>
     </div>
   
-    <div className="w-full mb-20 mt-16  h-auto flex flex-col justify-center items-center max-w-90 m-auto  mobilelm:m-0 mobilelm:p-10  minmobile:m-0 minmobile:p-10">
+    <div className="w-full mb-20 mt-16  h-auto flex flex-col justify-center items-center max-w-90 m-auto  mobilelm:m-0 mobilelm:pt-10  minmobile:m-0 minmobile:pt-10">
    
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5  w-full ">
         {data.map((work) => (
