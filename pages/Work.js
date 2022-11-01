@@ -5,7 +5,7 @@ import gitImage from "../public/images/git2.png";
 import { Element } from "react-scroll";
 
 
-import WorkItem from "./WorkItem";
+import WorkItem from "../components/WorkItem";
 
 const Work = () => {
  
