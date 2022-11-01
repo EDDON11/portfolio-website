@@ -11,7 +11,7 @@ const Work = () => {
  
   return (
 	<Element id='work' name='work'>
-     <div className="max-w-90 m-auto mt-24 md:w-full md:m-0">
+     <div className="max-w-90 m-auto mt-24 mobilelm:w-full mobilelm:m-0">
       <h3 className='text-4xl py-1 dark:text-white font-extrabold'>Portfolio</h3>
    
         <p className="text-lg py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -19,7 +19,7 @@ const Work = () => {
         </p>
     </div>
   
-    <div className="w-full mb-20 mt-16  h-auto flex flex-col justify-center items-center max-w-90 m-auto md:w-full md:m-0 md:p-10">
+    <div className="w-full mb-20 mt-16  h-auto flex flex-col justify-center items-center max-w-90 m-auto mobilelm:w-full mobilelm:m-0 mobilelm:p-10">
    
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5  w-full ">
         {data.map((work) => (
