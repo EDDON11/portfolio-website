@@ -1,5 +1,5 @@
 import React from "react";
-import data from "./data";
+import data from "../utils/data";
 import Image from "next/image";
 import gitImage from "../public/images/git2.png";
 import { Element } from "react-scroll";
