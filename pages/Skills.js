@@ -27,15 +27,15 @@ const Skills = () => {
           </p>
         </div>
         <div className="lg:flex gap-10 mt-16">
-          <div className="text-center shadow-lg p-10 rounded-xl my-10 bigscreen:w-1/2">
+          <div className="text-center shadow-lg p-10 mobile:p-5 rounded-xl my-10 bigscreen:w-1/2">
             <div className="flex justify-center">
-              <FaCode className="w-32 h-32  bg-transparent  text-red-600 m-3 p-1 shadow-xl rounded-md" />
+              <FaCode className="w-32 h-32 mobiletext:w-20 mobiletext:h-20 bg-transparent  text-red-600 m-3 p-1 shadow-xl rounded-md" />
             </div>
-            <h3 className="text-2xl font-extrabold pt-6 pb-8 text-white">
+            <h3 className="text-2xl font-extrabold pt-6 pb-8 mobiletext:pt-3 mobiletext:pb-6 text-white">
               Web development
             </h3>
 
-            <p className="text-secondary text-sm font-mono minmobile:text-xs">
+            <p className="text-secondary text-sm font-mono minmobile:text-xs mobiletext:text-start">
               HTML/CSS, JavaScript, React, TypeScript, Next.js, Express.js,
               MongoDB, LESS, SASS, Bootstrap, Tailwind CSS, Wordpress
             </p>
@@ -43,13 +43,13 @@ const Skills = () => {
 
           <div className="text-center shadow-lg p-10 rounded-xl my-10 bigscreen:w-1/2">
             <div className="flex justify-center">
-              <SiGoogleoptimize className="w-32 h-32  bg-transparent  text-blue-600 m-3 p-1 shadow-xl rounded-md" />
+              <SiGoogleoptimize className="w-32 h-32 mobiletext:w-20 mobiletext:h-20 bg-transparent  text-blue-600 m-3 p-1 shadow-xl rounded-md" />
             </div>
-            <h3 className="text-2xl text-white pt-6 pb-8 font-extrabold">
+            <h3 className="text-2xl text-white pt-6 pb-8 mobiletext:pt-3 mobiletext:pb-6 font-extrabold">
               Traffic Sales
             </h3>
 
-            <p className=" text-secondary text-sm font-mono minmobile:text-xs">
+            <p className=" text-secondary text-sm font-mono minmobile:text-xs mobiletext:text-start">
               Search Optimization, SEO, Analysis, Link Building, PPC, Strategic
               Campaign Creation
             </p>

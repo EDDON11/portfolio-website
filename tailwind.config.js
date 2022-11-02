@@ -38,7 +38,8 @@ module.exports = {
 				'tabletxl': {'min': '320px', 'max': '741px'},
 				'bigscreen': {'min': '1024px', 'max': '2056px'},
 				'minmobile': {'min': '200px', 'max': '352px'},
-				'screenbtn': {'min': '100px', "max": '768px'}
+				'screenbtn': {'min': '100px', "max": '768px'},
+				'mobiletext': {'min': '100px', 'max': '435px'}
 			  },
 			
 			
