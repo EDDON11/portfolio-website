@@ -8,10 +8,10 @@ const Contact = () => {
   return (
     <Element id="contact" name="contact">
       <section className="max-w-90 m-auto pt-4 mobilelm:m-0 minmobile:m-0">
-        <h3 className="text-4xl py-1 dark:text-white font-extrabold">
+        <h3 className="text-4xl py-1 text-white font-extrabold">
           Contact me
         </h3>
-        <p className="text-lg py-2 leading-8 text-gray-800 dark:text-gray-200">
+        <p className="text-lg py-2 leading-8 text-gray-800 text-gray-200">
           You can <span className="text-teal-600">contact me</span> in any
           convenient way.
         </p>

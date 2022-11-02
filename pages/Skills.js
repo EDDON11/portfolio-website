@@ -8,18 +8,18 @@ const Skills = () => {
     <Element id="slills" name="skills">
       <section className="max-w-90 m-auto  mobilelm:m-0  minmobile:m-0">
         <div>
-          <h3 className="text-4xl py-1 dark:text-white font-extrabold">
+          <h3 className="text-4xl py-1 text-white font-extrabold">
             Skills
           </h3>
 
-          <p className="text-lg py-2 leading-8 text-gray-800 dark:text-gray-200">
+          <p className="text-lg py-2 leading-8 text-gray-200">
             From the very beginning of my career as a developer, I studied
             programming at various schools, took simple projects on freelance
             exchanges, practiced on educational projects using the most modern
             stack of technologies. I have experience in promoting websites in
             search engines and analytics.
           </p>
-          <p className="text-lg py-2 leading-8 text-gray-800 dark:text-gray-200">
+          <p className="text-lg py-2 leading-8 text-gray-200">
             I offer a range of services,{" "}
             <span className="text-teal-500"> programming </span> and layout,{" "}
             <span className="text-teal-500">search engine optimization</span>,

@@ -12,9 +12,9 @@ const Work = () => {
   return (
 	<Element id='work' name='work'>
      <div className="max-w-90 m-auto mt-24 mobilelm:m-0  minmobile:m-0">
-      <h3 className='text-4xl py-1 dark:text-white font-extrabold'>Portfolio</h3>
+      <h3 className='text-4xl py-1 text-white font-extrabold'>Portfolio</h3>
    
-        <p className="text-lg py-2 leading-8 text-gray-800 dark:text-gray-200">
+        <p className="text-lg py-2 leading-8 text-gray-200">
         Below you can see some of the <span className="text-teal-500">projects</span> and tutorials I`ve been <span className="text-teal-500">working</span> on lately. The use of modern <span className="text-teal-500">technologies</span> allows you to make a website or application fast, unique and scalable.
         </p>
     </div>
