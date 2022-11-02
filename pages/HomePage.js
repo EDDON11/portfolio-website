@@ -15,7 +15,7 @@ const HomePage = () => {
         <h2 className="text-5xl py-2 text-teal-600 font-extrabold  md:text-6xl mobilelm:text-4xl minmobile:text-3xl">
           Eduard Donkeev
         </h2>
-        <h3 className="text-2xl py-2 md:text-3xl text-secondary font-bold mobiletext:text-lg ">
+        <h3 className="text-2xl py-2 md:text-3xl text-secondary font-bold mobiletext:text-xl ">
           Junior Web Developer | Traffic Sales
         </h3>
         <p className="text-md py-5 leading-8 text-gray-800 md:text-3xl dark:text-gray-200  mx-auto mobiletext:pt-3 mobiletext:text:lg">
