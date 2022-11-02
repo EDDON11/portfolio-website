@@ -27,7 +27,7 @@ const Skills = () => {
           </p>
         </div>
         <div className="lg:flex gap-10 mt-16">
-          <div className="text-center shadow-lg p-10 mobile:p-5 rounded-xl my-10 bigscreen:w-1/2">
+          <div className="text-center shadow-lg p-10 mobiletext:p-5 rounded-xl my-10 bigscreen:w-1/2">
             <div className="flex justify-center">
               <FaCode className="w-32 h-32 mobiletext:w-20 mobiletext:h-20 bg-transparent  text-red-600 m-3 p-1 shadow-xl rounded-md" />
             </div>
@@ -41,7 +41,7 @@ const Skills = () => {
             </p>
           </div>
 
-          <div className="text-center shadow-lg p-10 rounded-xl my-10 bigscreen:w-1/2">
+          <div className="text-center shadow-lg p-10 mobiletext:p-5 rounded-xl my-10 bigscreen:w-1/2">
             <div className="flex justify-center">
               <SiGoogleoptimize className="w-32 h-32 mobiletext:w-20 mobiletext:h-20 bg-transparent  text-blue-600 m-3 p-1 shadow-xl rounded-md" />
             </div>
