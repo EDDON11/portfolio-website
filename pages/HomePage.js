@@ -16,10 +16,10 @@ const HomePage = () => {
           Eduard Donkeev
         </h2>
         <h3 className="text-2xl py-2 md:text-3xl text-secondary font-bold mobiletext:text-xl ">
-          Junior Web Developer | Traffic Sales
+          Junior Web Developer | Data Analyst
         </h3>
         <p className="text-md py-5 leading-8 md:text-3xl text-gray-200  mx-auto mobiletext:pt-3 mobiletext:text:lg">
-          I provide programming, SEO and strategic campaign creation.
+          I provide programming, SEO and Data Analytics.
         </p>
       </div>
       <div className="text-5xl flex justify-center gap-16 py-3 text-gray-400 "></div>

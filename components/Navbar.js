@@ -1,13 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import { Link } from "react-scroll";
+import {useTheme} from "next-themes";
+
+
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
+ 
   return (
     <div>
-      <nav className=" fixed z-20 bg-body w-full">
+      <nav className=" fixed z-20 bg-body light:bg-white w-full">
         <div className="w-full">
           <div className="flex items-center h-20 w-full ">
             <div className="flex items-center  sm:mx-10 md:mx-20 justify-between w-full">
@@ -21,6 +24,7 @@ function Navbar() {
                     &#62;
                   </span>
                 </h1>
+             
               </div>
               <div className="hidden md:block tablet:hidden">
                 <div className="ml-10 flex items-baseline space-x-4">
@@ -56,6 +60,7 @@ function Navbar() {
                   </Link>
                 </div>
               </div>
+      
 
               <div className="flex justify-center items-center flex-shrink-0 ">
                 <Link to="contact"   >

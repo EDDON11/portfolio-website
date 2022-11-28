@@ -5,8 +5,10 @@ import Work from "./Work";
 import HomePage from "./HomePage";
 import Skills from "./Skills";
 import Contact from "./Contact";
+import{SunIcon ,MoonIcon} from "@heroicons/react/solid";
 
 const Home = () => {
+
   return (
     <div className={styles.container}>
       <Head>

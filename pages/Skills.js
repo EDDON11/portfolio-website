@@ -22,8 +22,7 @@ const Skills = () => {
           <p className="text-lg py-2 leading-8 text-gray-200">
             I offer a range of services,{" "}
             <span className="text-teal-500"> programming </span> and layout,{" "}
-            <span className="text-teal-500">search engine optimization</span>,
-            semantics, analytics and application generation for business.
+            <span className="text-teal-500">search engine optimization</span>, analytics.
           </p>
         </div>
         <div className="lg:flex gap-10 mt-16">
@@ -46,13 +45,11 @@ const Skills = () => {
               <SiGoogleoptimize className="w-32 h-32 mobiletext:w-20 mobiletext:h-20 bg-transparent  text-blue-600 m-3 p-1 shadow-xl rounded-md" />
             </div>
             <h3 className="text-2xl text-white pt-6 pb-8 mobiletext:pt-3 mobiletext:pb-6 font-extrabold">
-              Traffic Sales
+             Data Analytics
             </h3>
 
             <p className=" text-secondary text-sm font-mono minmobile:text-xs mobiletext:text-start">
-              Search Optimization, SEO, Analysis, Link Building, PPC, Strategic
-              Campaign Creation
-            </p>
+            Python, Jupyter Notebook, SQL, PostgreSQL, Tableau, Search Optimization, SEO, Analysis.</p>
             <p className="text-secondary  text-xl"></p>
           </div>
         </div>

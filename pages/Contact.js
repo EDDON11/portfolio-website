@@ -11,7 +11,7 @@ const Contact = () => {
         <h3 className="text-4xl py-1 text-white font-extrabold">
           Contact me
         </h3>
-        <p className="text-lg py-2 leading-8 text-gray-800 text-gray-200">
+        <p className="text-lg py-2 leading-8  text-gray-200">
           You can <span className="text-teal-600">contact me</span> in any
           convenient way.
         </p>
@@ -19,7 +19,7 @@ const Contact = () => {
           <div className="flex justify-between tabletxl:flex-col minmobile:flex-col tabletxxl:flex-col">
           
               <div className="flex items-center tabletxl:pb-2 tabletxxl:pt-4 hover:animate-pulse">
-                <AiOutlineMail className="w-10 h-10 minmobile:w-7 minmobile:h-7  bg-gradient-to-r from-cyan-500 to-teal-500  p-1 shadow-xl rounded-md m-0 text-lg  mr-2 md:text-sm " />
+                <AiOutlineMail className="w-10 h-10 minmobile:w-7 minmobile:h-7  bg-gradient-to-r from-cyan-500 to-teal-500  p-1 shadow-xl rounded-md m-0 text-lg  mr-2 md:text-sm text-black" />
                 <p className="text-secondary minmobile:text-xs hover:text-teal-600 font-mono">
                   donkeev.ed@gmail.com
                 </p>
@@ -27,7 +27,7 @@ const Contact = () => {
          
             <a href="https://t.me/eduarddonkeev">
               <div className="flex items-center tabletxl:pb-2 tabletxxl:pt-4 hover:animate-pulse">
-                <FaTelegramPlane className="w-10 h-10 minmobile:w-7 minmobile:h-7 bg-gradient-to-r from-cyan-500 to-teal-500  p-1 shadow-xl rounded-md m-0 text-lg   mr-2" />
+                <FaTelegramPlane className="w-10 h-10 minmobile:w-7 minmobile:h-7 bg-gradient-to-r from-cyan-500 to-teal-500  p-1 shadow-xl rounded-md m-0 text-lg   mr-2 text-black" />
                
                   <p className="text-secondary minmobile:text-xs hover:text-teal-600 font-mono">
                     t.me/eduarddonkeev
@@ -37,7 +37,7 @@ const Contact = () => {
             </a>
             <a href="https://www.linkedin.com/in/eduard-donkeev-324053240">
               <div className="flex items-center tabletxl:pb-2 tabletxxl:pt-4 hover:animate-pulse">
-                <AiOutlineLinkedin className="w-10 h-10 minmobile:w-7 minmobile:h-7 bg-gradient-to-r from-cyan-500 to-teal-500  p-1 shadow-xl rounded-md m-0 text-lg   mr-2" />
+                <AiOutlineLinkedin className="w-10 h-10 minmobile:w-7 minmobile:h-7 bg-gradient-to-r from-cyan-500 to-teal-500  p-1 shadow-xl rounded-md m-0 text-lg   mr-2 text-black" />
                 
                   <p className="text-secondary minmobile:text-xs hover:text-teal-600 font-mono">
                     eduard-donkeev
